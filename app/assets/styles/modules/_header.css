@@ -1,0 +1,17 @@
+.header {
+  display: block;
+  text-align: center;
+  /* background: yellow; */
+
+  &--title {
+    font-size: 8rem;
+  }
+
+  &--image {
+    position: fixed;
+    left: 150px;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+  }
+}
