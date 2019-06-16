@@ -1,0 +1,10 @@
+.about {
+  width: 50%;
+  margin-left: 21.5rem;
+
+  &__title{
+    font-size: 3rem;
+    color: $mainBlue;
+  }
+
+}

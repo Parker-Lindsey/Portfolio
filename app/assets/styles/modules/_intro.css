@@ -1,0 +1,14 @@
+.intro{
+  margin-top: 30px;
+  width: 50%;
+  margin-left: 21.5rem;
+
+  &__title{
+    font-size: 3rem;
+    color: $mainBlue;
+  }
+
+  &__subtitle{
+    font-size: 1.75rem;
+  }
+}

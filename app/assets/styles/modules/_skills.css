@@ -1,0 +1,17 @@
+.skills {
+  width: 50%;
+  margin-left: 21.5rem;
+
+  &__title{
+    font-size: 1.5rem;
+    color: $mainBlue;
+  }
+
+  &__chart {
+
+    ul {
+      list-style: none;
+      display: inline-block;
+    }
+  }
+}

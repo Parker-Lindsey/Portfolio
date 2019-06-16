@@ -1,0 +1,43 @@
+.site-header {
+  position: sticky;
+  padding: 10px 0;
+  background-image: url("../../assets/images/coding-banner.jpg");
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  height: 50px;
+  color: black;
+
+  &--light {
+    background: blue;
+  }
+
+  &__nav {
+    z-index: 3;
+    float: right;
+    padding-top: 0;
+    margin-top: 40px;
+
+
+    ul {
+      margin: 0;
+      padding: 0;
+      background-color: rgba($mainBlue, .3);
+    }
+
+    li {
+      margin-top: 15px;
+      list-style: none;
+      display: inline-block;
+      padding-right: 50px;
+    }
+
+    li:hover {
+      color: $mainBlue;
+    }
+
+    li:first-child {
+      padding-left: 20px;
+    }
+  }
+}
