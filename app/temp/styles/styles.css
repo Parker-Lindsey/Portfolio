@@ -533,24 +533,23 @@ a {
   color: black;
 }
 
-.site-header--light {
-    background: blue;
-  }
-
 .site-header__nav {
     z-index: 3;
     float: right;
     padding-top: 0;
     margin-top: 40px;
+    background-color: rgba(58,163,255, .3);
+    width: 100%;
   }
 
 .site-header__nav ul {
       margin: 0;
       padding: 0;
-      background-color: rgba(58,163,255, .3);
+
     }
 
 .site-header__nav li {
+      float: right;
       margin-top: 15px;
       list-style: none;
       display: inline-block;
@@ -562,5 +561,5 @@ a {
     }
 
 .site-header__nav li:first-child {
-      padding-left: 20px;
+      padding-right: 30px;
     }
